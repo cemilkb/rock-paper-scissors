@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+body{ 
+    background-image: url(images/output-onlinepngtools.png);
+    opacity: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 24px 0px;
+    font-size: 50px;
+    font-family: 'ADLaM Display', cursive;
+   color:  #1600df ;
+   text-shadow: 5px 5px 1px black;
+  
+   
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: #ee01bb86;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0px;
+    gap: 8%;
+}
+
+.cards p{
+    color: transparent;
+    text-shadow: 0px 0px 0.199rem  #ff0aca ;
+}
+
+.player,
+.computer {
+    
+    padding: 0px;
+    height: 200px;
+    box-sizing: border-box;
+    height: fit-content;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 36px;
+    background: rgb(0, 212, 255);
+    background: radial-gradient(circle, #0034df 0%, rgb(0, 0, 0) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #0034df;
+    
+}
+
+.computer img{
+    filter: drop-shadow(10px 10px 10px #ee01bb);
+}
+
+.player img{
+    filter: drop-shadow(10px 10px 10px #ee01bb);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+    margin: 36px 0px;
+}
+
+button {
+    background: rgb(0, 212, 255);
+    background: radial-gradient(circle, rgb(0, 52, 223) 0%, rgb(0, 0, 0) 100%);
+    color: #ff0aca;
+    border: none;
+    font-size: 32px;
+    padding: 12px;
+    border-radius: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+button img {
+    width: 100px;
+    filter: drop-shadow(10px 10px 10px #ee01bb);
+    transition: all 0.5s ease-in-out;
+}
+.scissors:hover{
+scale: 1.1;
+box-shadow: 0px 0px 20px 5px red;
+color: red;
+}
+
+.scissors:hover img{
+    filter: drop-shadow(10px 10px 10px red);
+}
+
+
+.rock:hover{
+scale: 1.1;
+box-shadow: 0px 0px 20px 5px rgb(225, 0, 255);
+color: rgb(225, 0, 255) ;
+}
+
+.rock:hover img{
+    filter: drop-shadow(10px 10px 10px rgb(225, 0, 255));
+}
+
+
+.paper:hover {
+scale: 1.1;
+box-shadow: 0px 0px 20px 5px rgb(0, 255, 242);
+color: rgb(0, 255, 242);
+
+}
+
+.paper:hover img{
+    filter: drop-shadow(10px 10px 10px rgb(0, 255, 242));
+}
+
+
